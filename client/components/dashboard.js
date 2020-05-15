@@ -6,7 +6,7 @@ const Dashboard = () => {
     <div>
       <div id="title"> Dashboard </div>
       <Link to="/dashboard/profile/46a02278-f502-4416-a401-707cfef5cc86"> Go To Profile </Link>
-      <Link to="/dashboard/mail"> Go To Main </Link>
+      <Link to="/dashboard/main"> Go To Main </Link>
         </div>
   )
 }

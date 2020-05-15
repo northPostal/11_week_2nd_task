@@ -4,16 +4,16 @@ import { Route } from 'react-router-dom'
 const Dashboard = () => {
   return (
     <div>
-      <div id="title"> Dashboard </div>
+      <div id="title"> Main </div>
       <Link to="/dashboard/profile/46a02278-f502-4416-a401-707cfef5cc86"> Go To Profile </Link>
-      <Link to="/dashboard/mail"> Go To Main </Link>
+      <Link to="/dashboard/main"> Go To Root </Link>
         </div>
   )
 }
 
 Dummy.propTypes = {}
 
-export default Dashboard
+export default DashboardMain
 
 // Внутри должно быть три элемента
 // // div с id="title" и текстом Main
