@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, useParams } from 'react-router-dom'  
 
 const DashboardProfile = () => {
+  const {user} = useParams()
   return (
     <div>
       <div id="title"> Profile </div>
