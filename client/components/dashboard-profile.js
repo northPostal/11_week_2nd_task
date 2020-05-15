@@ -12,7 +12,7 @@ const DashboardProfile = () => {
   )
 }
 
-Dummy.propTypes = {}
+DashboarProfile.propTypes = {}
 
 export default DashboarProfile
 

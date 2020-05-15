@@ -7,11 +7,11 @@ const DashboardMain = () => {
       <div id="title"> Main </div>
       <Link to="/dashboard/profile/46a02278-f502-4416-a401-707cfef5cc86"> Go To Profile </Link>
       <Link to="/dashboard"> Go To Root </Link>
-        </div>
+    </div>
   )
 }
 
-Dummy.propTypes = {}
+DashboardMain.propTypes = {}
 
 export default DashboardMain
 

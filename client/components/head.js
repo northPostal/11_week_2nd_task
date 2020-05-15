@@ -1,6 +1,9 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { Helmet } from 'react-helmet'
+import { Route } from 'react-router-dom'  
+import Header from './header'
+import Dashboard from './dashboard'
+import DashboardMain from './dashboard-main'
+import DashboardProfile from './dashboard-profile'
 
 const Head = (props) => (
   <Helmet>

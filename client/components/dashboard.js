@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route } from 'react-router-dom'  
+import { Link } from 'react-router-dom'  
 
 const Dashboard = () => {
   return (
@@ -7,11 +7,11 @@ const Dashboard = () => {
       <div id="title"> Dashboard </div>
       <Link to="/dashboard/profile/46a02278-f502-4416-a401-707cfef5cc86"> Go To Profile </Link>
       <Link to="/dashboard/main"> Go To Main </Link>
-        </div>
+    </div>
   )
 }
 
-Dummy.propTypes = {}
+Dashboard.propTypes = {}
 
 export default Dashboard
 
